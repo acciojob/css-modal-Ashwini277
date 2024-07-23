@@ -3,21 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Modal</title>
+    <title>Simple Modal</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Button to open the modal -->
     <button id="openModal">Open Modal</button>
 
+    <!-- The Modal -->
     <div id="myModal" class="modal">
+        <!-- Modal content -->
         <div class="modal-content">
-            <div class="modal-header">
-                <h2>Modal Header</h2>
-                <span class="close-modal">&times;</span>
-            </div>
-            <div class="modal-body">
-                <p>Modal Body Content</p>
-            </div>
+            <span class="close-modal">&times;</span>
+            <h2>Modal Header</h2>
+            <p>This is a simple modal.</p>
         </div>
     </div>
 
